@@ -8,7 +8,7 @@
 
 /* Fundo suave */
 body {
-    background-color: #fff0f5;
+    background-color: #d9d9d9;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@ body {
 
 /* Conteúdo principal */
 main {
-    background-color: #ffffff;
+    background-color: #d9d9d9;
     padding: 40px 60px;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -34,7 +34,7 @@ main {
 }
 
 h1 {
-    color: #e91e63;
+    color: cca1af
     margin-bottom: 25px;
 }
 
@@ -62,14 +62,14 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border-color: #e91e63;
-    box-shadow: 0 0 5px rgba(233, 30, 99, 0.3);
+    border-color: #db799a;
+    box-shadow: 0 0 5px rgba(179, 109, 132, 0.3);
 }
 
 /* Botão */
 input[type="submit"] {
     background-color: #e91e63;
-    color: white;
+    color: rgb(235, 218, 218);
     font-weight: 600;
     cursor: pointer;
     border: none;
